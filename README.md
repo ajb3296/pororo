@@ -1,7 +1,12 @@
 # PORORO: Platform Of neuRal mOdels for natuRal language prOcessing
 
-설치할때 오류수정함
+설치할때 오류수정함<br>
 대충 파이토치 버전맞는 놈으로 먼저 설치해두셈
+<br><br>
+설치법
+```console
+pip install git+https://github.com/ajb3296/pororo.git
+```
 
 <p align="center">
   <a href="https://github.com/kakaobrain/pororo/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/kakaobrain/pororo.svg" /></a>
