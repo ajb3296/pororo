@@ -4,8 +4,8 @@ from setuptools import setup, find_packages
 
 packages = find_packages()
 requirements = [
-    "torch==1.6.0",
-    "torchvision==0.7.0",
+    "torch",
+    "torchvision",
     "pillow>=4.1.1",
     "fairseq>=0.10.2",
     "transformers>=4.0.0",
@@ -30,7 +30,7 @@ setup(
     name="pororo",
     version=VERSION["version"],
     description="Pororo: A Deep Learning based Multilingual Natural Language Processing Library",
-    long_description=open("README.md").read(),
+    long_description="",
     long_description_content_type="text/markdown",
     classifiers=[
         "Intended Audience :: Developers",

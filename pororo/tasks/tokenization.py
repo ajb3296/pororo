@@ -138,7 +138,7 @@ class PororoTokenizationFactory(PororoFactoryBase):
             vocab = download_or_load("misc/vocab.bpe", self.config.lang)
             model = get_encoder(encoder, vocab)
 
-            with open(encoder, "r") as f_vocab:
+            with open(encoder, "r", encoding="utf8") as f_vocab:
                 vocab = json.load(f_vocab)
                 inv_dict = {v: k for k, v in vocab.items()}
 

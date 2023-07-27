@@ -115,6 +115,7 @@ class PororoNerFactory(PororoFactoryBase):
                     self.config.lang,
                 ),
                 "r",
+                encoding="utf8",
             )
             wsd_dict = defaultdict(dict)
             for line in f_wsd_dict.readlines():
@@ -329,6 +330,7 @@ class PororoBertCharNer(PororoSimpleBase):
                     self.config.lang,
                 ),
                 "r",
+                encoding="utf8",
             ).read().strip().splitlines())
 
             for line in lines:
