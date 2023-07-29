@@ -1,7 +1,9 @@
 # PORORO: Platform Of neuRal mOdels for natuRal language prOcessing
 
 설치할때 오류수정함<br>
-대충 파이토치 버전맞는 놈으로 먼저 설치해두셈
+대충 파이토치 버전맞는 놈으로 먼저 설치해두셈<br>
+윈도우에선 C++ 도 설치해야함. 대충 [여기](https://visualstudio.microsoft.com/ko/visual-cpp-build-tools/) 에서 빌드툴 받고 "C++를 사용한 데스크톱 개발" 체크하고 설치하면 됨<br>
+macos에선 torch.device를 mps로 설정시 오히려 느림. cpu가 나음<br>
 <br><br>
 설치법
 ```console
